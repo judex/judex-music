@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png" width="30">
+    <img src="dist/logo.png" width="30">
     <h1>{{ msg }}</h1>
     <select name="" v-model="selectedcountry">
       <option v-for="(country, index) in countries" :key="index" :value="country.value">
